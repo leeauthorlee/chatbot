@@ -1,0 +1,454 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "메뉴 영역으로 바로가기" [ref=e2] [cursor=pointer]:
+      - /url: "#lnb"
+    - link "본문 영역으로 바로가기" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e11]:
+          - heading [level=1] [ref=e12]:
+            - link "NAVER" [ref=e13] [cursor=pointer]:
+              - /url: https://www.naver.com
+          - search [ref=e15]:
+            - group "검색" [ref=e16]:
+              - combobox "검색어를 입력해 주세요." [ref=e18]:
+                - text: OpenAI
+                - generic:
+                  - generic:
+                    - dialog "자동완성 레이어"
+              - button "한글 입력기" [ref=e20] [cursor=pointer]
+              - button "검색" [ref=e22] [cursor=pointer]
+        - generic [ref=e24]:
+          - strong [ref=e25]: 사용자 링크
+          - list [ref=e26]:
+            - listitem [ref=e27]:
+              - link "로그인" [ref=e28] [cursor=pointer]:
+                - /url: https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.naver.com%2Fsearch.naver%3Fwhere%3Dnews%26query%3DOpenAI
+            - listitem [ref=e32]:
+              - link "서비스 더보기" [ref=e33] [cursor=pointer]:
+                - /url: javascript:;
+      - generic [ref=e36]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - tab "전체" [ref=e41] [cursor=pointer]
+            - tab "뉴스" [selected] [ref=e44] [cursor=pointer]
+            - tab "AI new" [ref=e46] [cursor=pointer]:
+              - text: AI
+              - generic [ref=e47]: new
+            - tab "블로그" [ref=e50] [cursor=pointer]
+            - tab "클립" [ref=e52] [cursor=pointer]
+            - tab "카페" [ref=e54] [cursor=pointer]
+            - tab "이미지" [ref=e56] [cursor=pointer]
+            - tab "지식iN" [ref=e58] [cursor=pointer]
+            - tab "동영상" [ref=e60] [cursor=pointer]
+            - tab "쇼핑 새 창 열림" [ref=e62] [cursor=pointer]:
+              - text: 쇼핑
+              - generic [ref=e63]: 새 창 열림
+            - tab "어학사전 새 창 열림" [ref=e65] [cursor=pointer]:
+              - text: 어학사전
+              - generic [ref=e66]: 새 창 열림
+          - button "더보기" [ref=e68] [cursor=pointer]
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - button "공유" [ref=e73] [cursor=pointer]
+    - main [ref=e74]:
+      - generic [ref=e75]:
+        - heading "OpenAI 뉴스검색 결과" [level=1] [ref=e76]
+        - generic [ref=e77]:
+          - generic [ref=e80]:
+            - button "검색옵션 열기" [ref=e82] [cursor=pointer]: 옵션
+            - listbox "정렬 필터를 선택하세요" [ref=e84]:
+              - option "관련도순" [selected] [ref=e85] [cursor=pointer]
+              - option "최신순" [ref=e86] [cursor=pointer]
+              - link "모바일 메인 언론사" [ref=e88] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=e91]:
+            - link "언론사 선정 언론사가 선정한 주요기사 혹은 심층기획 기사입니다. 네이버 메인에서 보고 싶은 언론사를 구독하세요." [ref=e93] [cursor=pointer]:
+              - /url: https://news.naver.com/main/static/channelPromotion.html
+              - generic [ref=e94]: 언론사 선정
+              - generic [ref=e95]:
+                - text: 언론사가 선정한 주요기사 혹은 심층기획 기사입니다.
+                - strong [ref=e96]: 네이버 메인에서 보고 싶은 언론사
+                - text: 를 구독하세요.
+            - list [ref=e98]:
+              - generic [ref=e102]:
+                - generic [ref=e103]:
+                  - generic [ref=e104]:
+                    - generic [ref=e105]:
+                      - link "아시아투데이의 프로필 이미지 새 창 열림" [ref=e107] [cursor=pointer]:
+                        - /url: http://www.asiatoday.co.kr
+                        - img "아시아투데이의 프로필 이미지" [ref=e110]
+                        - generic [ref=e111]: 새 창 열림
+                      - link "아시아투데이 새 창 열림" [ref=e114] [cursor=pointer]:
+                        - /url: http://www.asiatoday.co.kr
+                        - generic [ref=e115]: 아시아투데이
+                        - generic [ref=e116]: 새 창 열림
+                      - generic [ref=e117]: 1시간 전
+                    - button "옵션 메뉴 열기" [ref=e123] [cursor=pointer]
+                  - generic [ref=e128]:
+                    - generic [ref=e129]:
+                      - link "Samsung mở rộng tham vọng từ bán dẫn sang trung tâm dữ liệu AI,... 새 창 열림" [ref=e130] [cursor=pointer]:
+                        - /url: https://vn.asiatoday.co.kr/view.php?key=20261116000910514
+                        - generic [ref=e131]: Samsung mở rộng tham vọng từ bán dẫn sang trung tâm dữ liệu AI,...
+                        - generic [ref=e132]: 새 창 열림
+                      - 'link "với OpenAI. Tuy nhiên, các chuyên gia cho rằng tập đoàn vẫn phải giải quyết nhiều thách thức, bao gồm khả... với OpenAI để phát triển cơ sở hạ tầng AI.Sau khoản đầu tư vào Helix, Samsung cho biết: \"Chúng tôi sẵn sàng... 새 창 열림" [ref=e133] [cursor=pointer]':
+                        - /url: https://vn.asiatoday.co.kr/view.php?key=20261116000910514
+                        - generic [ref=e134]:
+                          - text: với
+                          - mark [ref=e135]: OpenAI
+                          - text: . Tuy nhiên, các chuyên gia cho rằng tập đoàn vẫn phải giải quyết nhiều thách thức, bao gồm khả... với
+                          - mark [ref=e136]: OpenAI
+                          - text: "để phát triển cơ sở hạ tầng AI.Sau khoản đầu tư vào Helix, Samsung cho biết: \"Chúng tôi sẵn sàng..."
+                        - generic [ref=e137]: 새 창 열림
+                    - link "Samsung mở rộng tham vọng từ bán dẫn sang trung tâm dữ liệu AI,...의 이미지 새 창 열림" [ref=e138] [cursor=pointer]:
+                      - /url: https://vn.asiatoday.co.kr/view.php?key=20261116000910514
+                      - img "Samsung mở rộng tham vọng từ bán dẫn sang trung tâm dữ liệu AI,...의 이미지" [ref=e140]
+                      - generic [ref=e142]: 새 창 열림
+                - generic [ref=e144]:
+                  - generic [ref=e145]:
+                    - generic [ref=e146]:
+                      - link "The New York Times의 프로필 이미지 새 창 열림" [ref=e148] [cursor=pointer]:
+                        - /url: http://www.nytimes.com
+                        - img "The New York Times의 프로필 이미지" [ref=e151]
+                        - generic [ref=e152]: 새 창 열림
+                      - link "The New York Times 새 창 열림" [ref=e155] [cursor=pointer]:
+                        - /url: http://www.nytimes.com
+                        - generic [ref=e156]: The New York Times
+                        - generic [ref=e157]: 새 창 열림
+                      - generic [ref=e158]: 14시간 전
+                    - button "옵션 메뉴 열기" [ref=e164] [cursor=pointer]
+                  - generic [ref=e169]:
+                    - generic [ref=e170]:
+                      - link "The Flaw at the Heart of Anthropic’s I.P.O. 새 창 열림" [ref=e171] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/2026/11/15/opinion/anthropic-ipo-ai-investors.html?partner=naver
+                        - generic [ref=e172]: The Flaw at the Heart of Anthropic’s I.P.O.
+                        - generic [ref=e173]: 새 창 열림
+                      - 'link "That’s what the co-founders wanted when they left OpenAI to start Anthropic. But what worries me is that the company is asking us to... And also, who Anthropic views as its real competition: Google and OpenAI. Sorry to Elon; he did not make the cut. But Anthropic devotes... 새 창 열림" [ref=e174] [cursor=pointer]':
+                        - /url: https://www.nytimes.com/2026/11/15/opinion/anthropic-ipo-ai-investors.html?partner=naver
+                        - generic [ref=e175]:
+                          - text: That’s what the co-founders wanted when they left
+                          - mark [ref=e176]: OpenAI
+                          - text: "to start Anthropic. But what worries me is that the company is asking us to... And also, who Anthropic views as its real competition: Google and"
+                          - mark [ref=e177]: OpenAI
+                          - text: . Sorry to Elon; he did not make the cut. But Anthropic devotes...
+                        - generic [ref=e178]: 새 창 열림
+                    - link "The Flaw at the Heart of Anthropic’s I.P.O.의 이미지 새 창 열림" [ref=e179] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/2026/11/15/opinion/anthropic-ipo-ai-investors.html?partner=naver
+                      - img "The Flaw at the Heart of Anthropic’s I.P.O.의 이미지" [ref=e181]
+                      - generic [ref=e183]: 새 창 열림
+                - generic [ref=e185]:
+                  - generic [ref=e186]:
+                    - generic [ref=e187]:
+                      - link "이코노타임즈의 프로필 이미지 새 창 열림" [ref=e189] [cursor=pointer]:
+                        - /url: https://www.econotimes.com
+                        - img "이코노타임즈의 프로필 이미지" [ref=e192]
+                        - generic [ref=e193]: 새 창 열림
+                      - link "이코노타임즈 새 창 열림" [ref=e196] [cursor=pointer]:
+                        - /url: https://www.econotimes.com
+                        - generic [ref=e197]: 이코노타임즈
+                        - generic [ref=e198]: 새 창 열림
+                      - generic [ref=e199]: 2일 전
+                    - button "옵션 메뉴 열기" [ref=e205] [cursor=pointer]
+                  - generic [ref=e210]:
+                    - generic [ref=e211]:
+                      - link "OpenAI pledges $2 million for research on AI and child safety 새 창 열림" [ref=e212] [cursor=pointer]:
+                        - /url: https://econotimes.com/OpenAI-pledges-2-million-for-research-on-AI-and-child-safety-1776778
+                        - generic [ref=e213]:
+                          - mark [ref=e214]: OpenAI
+                          - text: pledges $2 million for research on AI and child safety
+                        - generic [ref=e215]: 새 창 열림
+                      - link "OpenAI committed $2 million earlier this week to support a global scientific research network studying artificial intelligence’s... OpenAI signed the Charter of Engagement for Safer AI for Children at the forum. OpenAI said its contribution would support the development of... 새 창 열림" [ref=e216] [cursor=pointer]:
+                        - /url: https://econotimes.com/OpenAI-pledges-2-million-for-research-on-AI-and-child-safety-1776778
+                        - generic [ref=e217]:
+                          - mark [ref=e218]: OpenAI
+                          - text: committed $2 million earlier this week to support a global scientific research network studying artificial intelligence’s...
+                          - mark [ref=e219]: OpenAI
+                          - text: signed the Charter of Engagement for Safer AI for Children at the forum.
+                          - mark [ref=e220]: OpenAI
+                          - text: said its contribution would support the development of...
+                        - generic [ref=e221]: 새 창 열림
+                    - link "<mark>OpenAI</mark> pledges $2 million for research on AI and child safety의 이미지 새 창 열림" [ref=e222] [cursor=pointer]:
+                      - /url: https://econotimes.com/OpenAI-pledges-2-million-for-research-on-AI-and-child-safety-1776778
+                      - img "<mark>OpenAI</mark> pledges $2 million for research on AI and child safety의 이미지" [ref=e224]
+                      - generic [ref=e226]: 새 창 열림
+                - generic [ref=e228]:
+                  - generic [ref=e229]:
+                    - generic [ref=e230]:
+                      - link "The New York Times의 프로필 이미지 새 창 열림" [ref=e232] [cursor=pointer]:
+                        - /url: http://www.nytimes.com
+                        - img "The New York Times의 프로필 이미지" [ref=e235]
+                        - generic [ref=e236]: 새 창 열림
+                      - link "The New York Times 새 창 열림" [ref=e239] [cursor=pointer]:
+                        - /url: http://www.nytimes.com
+                        - generic [ref=e240]: The New York Times
+                        - generic [ref=e241]: 새 창 열림
+                      - generic [ref=e242]: 2일 전
+                    - button "옵션 메뉴 열기" [ref=e248] [cursor=pointer]
+                  - generic [ref=e253]:
+                    - generic [ref=e254]:
+                      - link "Silicon Valley Is Used to Scandal. This One Upped the Ante. 새 창 열림" [ref=e255] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/2026/11/14/technology/jensen-huang-nvidia-scandal-silicon-valley.html?partner=naver
+                        - generic [ref=e256]: Silicon Valley Is Used to Scandal. This One Upped the Ante.
+                        - generic [ref=e257]: 새 창 열림
+                      - link "A new employee of OpenAI, Abdulrahman Alfozan, was arrested last month and charged with wiretapping after he was allegedly discovered putting a recording device wrapped in toilet paper in a conference room. Mr. Alfozan, a Saudi national, has pleaded not guilty. OpenAI found... 새 창 열림" [ref=e258] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/2026/11/14/technology/jensen-huang-nvidia-scandal-silicon-valley.html?partner=naver
+                        - generic [ref=e259]:
+                          - text: A new employee of
+                          - mark [ref=e260]: OpenAI
+                          - text: ", Abdulrahman Alfozan, was arrested last month and charged with wiretapping after he was allegedly discovered putting a recording device wrapped in toilet paper in a conference room. Mr. Alfozan, a Saudi national, has pleaded not guilty."
+                          - mark [ref=e261]: OpenAI
+                          - text: found...
+                        - generic [ref=e262]: 새 창 열림
+                    - link "Silicon Valley Is Used to Scandal. This One Upped the Ante.의 이미지 새 창 열림" [ref=e263] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/2026/11/14/technology/jensen-huang-nvidia-scandal-silicon-valley.html?partner=naver
+                      - img "Silicon Valley Is Used to Scandal. This One Upped the Ante.의 이미지" [ref=e265]
+                      - generic [ref=e267]: 새 창 열림
+                - generic [ref=e269]:
+                  - generic [ref=e270]:
+                    - generic [ref=e271]:
+                      - link "이코노타임즈의 프로필 이미지 새 창 열림" [ref=e273] [cursor=pointer]:
+                        - /url: https://www.econotimes.com
+                        - img "이코노타임즈의 프로필 이미지" [ref=e276]
+                        - generic [ref=e277]: 새 창 열림
+                      - link "이코노타임즈 새 창 열림" [ref=e280] [cursor=pointer]:
+                        - /url: https://www.econotimes.com
+                        - generic [ref=e281]: 이코노타임즈
+                        - generic [ref=e282]: 새 창 열림
+                      - generic [ref=e283]: 2일 전
+                    - button "옵션 메뉴 열기" [ref=e289] [cursor=pointer]
+                  - generic [ref=e294]:
+                    - generic [ref=e295]:
+                      - link "Databricks details three ways to connect OpenAI tools to company data 새 창 열림" [ref=e296] [cursor=pointer]:
+                        - /url: https://econotimes.com/Databricks-details-three-ways-to-connect-OpenAI-tools-to-company-data-1776779
+                        - generic [ref=e297]:
+                          - text: Databricks details three ways to connect
+                          - mark [ref=e298]: OpenAI
+                          - text: tools to company data
+                        - generic [ref=e299]: 새 창 열림
+                      - 'link "Businesses can connect OpenAI tools to company data in three ways while retaining controls over access and spending, Databricks said in... Databricks, which provides a data and artificial intelligence platform, titled the post “OpenAI and Databricks: Enterprise AI on your... 새 창 열림" [ref=e300] [cursor=pointer]':
+                        - /url: https://econotimes.com/Databricks-details-three-ways-to-connect-OpenAI-tools-to-company-data-1776779
+                        - generic [ref=e301]:
+                          - text: Businesses can connect
+                          - mark [ref=e302]: OpenAI
+                          - text: tools to company data in three ways while retaining controls over access and spending, Databricks said in... Databricks, which provides a data and artificial intelligence platform, titled the post “
+                          - mark [ref=e303]: OpenAI
+                          - text: "and Databricks: Enterprise AI on your..."
+                        - generic [ref=e304]: 새 창 열림
+                    - link "Databricks details three ways to connect <mark>OpenAI</mark> tools to company data의 이미지 새 창 열림" [ref=e305] [cursor=pointer]:
+                      - /url: https://econotimes.com/Databricks-details-three-ways-to-connect-OpenAI-tools-to-company-data-1776779
+                      - img "Databricks details three ways to connect <mark>OpenAI</mark> tools to company data의 이미지" [ref=e307]
+                      - generic [ref=e309]: 새 창 열림
+                - generic [ref=e311]:
+                  - generic [ref=e312]:
+                    - generic [ref=e313]:
+                      - link "The New York Times의 프로필 이미지 새 창 열림" [ref=e315] [cursor=pointer]:
+                        - /url: http://www.nytimes.com
+                        - img "The New York Times의 프로필 이미지" [ref=e318]
+                        - generic [ref=e319]: 새 창 열림
+                      - link "The New York Times 새 창 열림" [ref=e322] [cursor=pointer]:
+                        - /url: http://www.nytimes.com
+                        - generic [ref=e323]: The New York Times
+                        - generic [ref=e324]: 새 창 열림
+                      - generic [ref=e325]: 2일 전
+                    - button "옵션 메뉴 열기" [ref=e331] [cursor=pointer]
+                  - generic [ref=e336]:
+                    - generic [ref=e337]:
+                      - link "Why Silicon Valley’s Knives Came Out for Anthropic 새 창 열림" [ref=e338] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/2026/11/13/technology/anthropic-dario-amodei-ai-openai.html?partner=naver
+                        - generic [ref=e339]: Why Silicon Valley’s Knives Came Out for Anthropic
+                        - generic [ref=e340]: 새 창 열림
+                      - link "Anthropic and OpenAI, the leading artificial intelligence companies, were lobbying the White House to prevent some A.I. models from... Over the next week, 200 more companies — including a chastened OpenAI — signed onto the letter. Dr. Amodei refused. Dr. Amodei has for... 새 창 열림" [ref=e341] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/2026/11/13/technology/anthropic-dario-amodei-ai-openai.html?partner=naver
+                        - generic [ref=e342]:
+                          - text: Anthropic and
+                          - mark [ref=e343]: OpenAI
+                          - text: ", the leading artificial intelligence companies, were lobbying the White House to prevent some A.I. models from... Over the next week, 200 more companies — including a chastened"
+                          - mark [ref=e344]: OpenAI
+                          - text: — signed onto the letter. Dr. Amodei refused. Dr. Amodei has for...
+                        - generic [ref=e345]: 새 창 열림
+                    - link "Why Silicon Valley’s Knives Came Out for Anthropic의 이미지 새 창 열림" [ref=e346] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/2026/11/13/technology/anthropic-dario-amodei-ai-openai.html?partner=naver
+                      - img "Why Silicon Valley’s Knives Came Out for Anthropic의 이미지" [ref=e348]
+                      - generic [ref=e350]: 새 창 열림
+                - generic [ref=e352]:
+                  - generic [ref=e353]:
+                    - generic [ref=e354]:
+                      - link "The New York Times의 프로필 이미지 새 창 열림" [ref=e356] [cursor=pointer]:
+                        - /url: http://www.nytimes.com
+                        - img "The New York Times의 프로필 이미지" [ref=e359]
+                        - generic [ref=e360]: 새 창 열림
+                      - link "The New York Times 새 창 열림" [ref=e363] [cursor=pointer]:
+                        - /url: http://www.nytimes.com
+                        - generic [ref=e364]: The New York Times
+                        - generic [ref=e365]: 새 창 열림
+                      - generic [ref=e366]: 3일 전
+                    - button "옵션 메뉴 열기" [ref=e372] [cursor=pointer]
+                  - generic [ref=e377]:
+                    - generic [ref=e378]:
+                      - link "Jensen Huang Is Gone. Good. 새 창 열림" [ref=e379] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/2026/11/13/opinion/jensen-huang-nvidia.html?partner=naver
+                        - generic [ref=e380]: Jensen Huang Is Gone. Good.
+                        - generic [ref=e381]: 새 창 열림
+                      - link "and OpenAI. In one week in September, companies on OpenRouter (a kind of marketplace for choosing different A.I. models to use) had used... companies, they would probably have to narrow or scale back their efforts — leaving OpenAI, Anthropic, Google and other American... 새 창 열림" [ref=e382] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/2026/11/13/opinion/jensen-huang-nvidia.html?partner=naver
+                        - generic [ref=e383]:
+                          - text: and
+                          - mark [ref=e384]: OpenAI
+                          - text: . In one week in September, companies on OpenRouter (a kind of marketplace for choosing different A.I. models to use) had used... companies, they would probably have to narrow or scale back their efforts — leaving
+                          - mark [ref=e385]: OpenAI
+                          - text: ", Anthropic, Google and other American..."
+                        - generic [ref=e386]: 새 창 열림
+                    - link "Jensen Huang Is Gone. Good.의 이미지 새 창 열림" [ref=e387] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/2026/11/13/opinion/jensen-huang-nvidia.html?partner=naver
+                      - img "Jensen Huang Is Gone. Good.의 이미지" [ref=e389]
+                      - generic [ref=e391]: 새 창 열림
+                - generic [ref=e393]:
+                  - generic [ref=e394]:
+                    - generic [ref=e395]:
+                      - link "The New York Times의 프로필 이미지 새 창 열림" [ref=e397] [cursor=pointer]:
+                        - /url: http://www.nytimes.com
+                        - img "The New York Times의 프로필 이미지" [ref=e400]
+                        - generic [ref=e401]: 새 창 열림
+                      - link "The New York Times 새 창 열림" [ref=e404] [cursor=pointer]:
+                        - /url: http://www.nytimes.com
+                        - generic [ref=e405]: The New York Times
+                        - generic [ref=e406]: 새 창 열림
+                      - generic [ref=e407]: 3일 전
+                    - button "옵션 메뉴 열기" [ref=e413] [cursor=pointer]
+                  - generic [ref=e418]:
+                    - generic [ref=e419]:
+                      - link "A Scorecard for Huang’s Exit From Nvidia 새 창 열림" [ref=e420] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/2026/11/13/business/dealbook/huang-nvidia-ouster-repercussions.html?partner=naver
+                        - generic [ref=e421]: A Scorecard for Huang’s Exit From Nvidia
+                        - generic [ref=e422]: 새 창 열림
+                      - link "chip with OpenAI) and AMD jumped 5 percent on Thursday, though they’re set to give up some of those gains on Friday. Some analysts and... 25-gigawatt data center in Ohio built by SB Energy, a SoftBank company, for use by OpenAI Financing support for neoclouds like... 새 창 열림" [ref=e423] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/2026/11/13/business/dealbook/huang-nvidia-ouster-repercussions.html?partner=naver
+                        - generic [ref=e424]:
+                          - text: chip with
+                          - mark [ref=e425]: OpenAI
+                          - text: ) and AMD jumped 5 percent on Thursday, though they’re set to give up some of those gains on Friday. Some analysts and... 25-gigawatt data center in Ohio built by SB Energy, a SoftBank company, for use by
+                          - mark [ref=e426]: OpenAI
+                          - text: Financing support for neoclouds like...
+                        - generic [ref=e427]: 새 창 열림
+                    - link "A Scorecard for Huang’s Exit From Nvidia의 이미지 새 창 열림" [ref=e428] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/2026/11/13/business/dealbook/huang-nvidia-ouster-repercussions.html?partner=naver
+                      - img "A Scorecard for Huang’s Exit From Nvidia의 이미지" [ref=e430]
+                      - generic [ref=e432]: 새 창 열림
+                - generic [ref=e434]:
+                  - generic [ref=e435]:
+                    - generic [ref=e436]:
+                      - link "The New York Times의 프로필 이미지 새 창 열림" [ref=e438] [cursor=pointer]:
+                        - /url: http://www.nytimes.com
+                        - img "The New York Times의 프로필 이미지" [ref=e441]
+                        - generic [ref=e442]: 새 창 열림
+                      - link "The New York Times 새 창 열림" [ref=e445] [cursor=pointer]:
+                        - /url: http://www.nytimes.com
+                        - generic [ref=e446]: The New York Times
+                        - generic [ref=e447]: 새 창 열림
+                      - generic [ref=e448]: 2일 전
+                    - button "옵션 메뉴 열기" [ref=e454] [cursor=pointer]
+                  - generic [ref=e459]:
+                    - generic [ref=e460]:
+                      - link "Wall Street Braces for Anthropic’s Aggressive Spending 새 창 열림" [ref=e461] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/2026/11/13/technology/anthropic-ipo-spending-plans.html?partner=naver
+                        - generic [ref=e462]: Wall Street Braces for Anthropic’s Aggressive Spending
+                        - generic [ref=e463]: 새 창 열림
+                      - link "like OpenAI and Alphabet. The I.P.O. would deliver Anthropic an additional $100 billion to spend, and make it easier to raise even more... Its focus on corporate customers, rather than consumers, has helped it leapfrog the ChatGPT maker OpenAI in sales this year. Its success... 새 창 열림" [ref=e464] [cursor=pointer]:
+                        - /url: https://www.nytimes.com/2026/11/13/technology/anthropic-ipo-spending-plans.html?partner=naver
+                        - generic [ref=e465]:
+                          - text: like
+                          - mark [ref=e466]: OpenAI
+                          - text: and Alphabet. The I.P.O. would deliver Anthropic an additional $100 billion to spend, and make it easier to raise even more... Its focus on corporate customers, rather than consumers, has helped it leapfrog the ChatGPT maker
+                          - mark [ref=e467]: OpenAI
+                          - text: in sales this year. Its success...
+                        - generic [ref=e468]: 새 창 열림
+                    - link "Wall Street Braces for Anthropic’s Aggressive Spending의 이미지 새 창 열림" [ref=e469] [cursor=pointer]:
+                      - /url: https://www.nytimes.com/2026/11/13/technology/anthropic-ipo-spending-plans.html?partner=naver
+                      - img "Wall Street Braces for Anthropic’s Aggressive Spending의 이미지" [ref=e471]
+                      - generic [ref=e473]: 새 창 열림
+                - generic [ref=e475]:
+                  - generic [ref=e476]:
+                    - generic [ref=e477]:
+                      - link "이코노타임즈의 프로필 이미지 새 창 열림" [ref=e479] [cursor=pointer]:
+                        - /url: https://www.econotimes.com
+                        - img "이코노타임즈의 프로필 이미지" [ref=e482]
+                        - generic [ref=e483]: 새 창 열림
+                      - link "이코노타임즈 새 창 열림" [ref=e486] [cursor=pointer]:
+                        - /url: https://www.econotimes.com
+                        - generic [ref=e487]: 이코노타임즈
+                        - generic [ref=e488]: 새 창 열림
+                      - generic [ref=e489]: 2일 전
+                    - button "옵션 메뉴 열기" [ref=e495] [cursor=pointer]
+                  - generic [ref=e500]:
+                    - generic [ref=e501]:
+                      - link "OpenAI Names Sandhya Devanathan to Lead Southeast Asia and Australia 새 창 열림" [ref=e502] [cursor=pointer]:
+                        - /url: https://econotimes.com/OpenAI-Names-Sandhya-Devanathan-to-Lead-Southeast-Asia-and-Australia-1776452
+                        - generic [ref=e503]:
+                          - mark [ref=e504]: OpenAI
+                          - text: Names Sandhya Devanathan to Lead Southeast Asia and Australia
+                        - generic [ref=e505]: 새 창 열림
+                      - link "OpenAI has appointed Sandhya Devanathan to lead Southeast Asia and Australia, alongside efforts to expand the company’s AI work with... Grace Chua, OpenAI’s head of communications for Southeast Asia, said Thailand is among the 20 countries with the largest weekly active... 새 창 열림" [ref=e506] [cursor=pointer]:
+                        - /url: https://econotimes.com/OpenAI-Names-Sandhya-Devanathan-to-Lead-Southeast-Asia-and-Australia-1776452
+                        - generic [ref=e507]:
+                          - mark [ref=e508]: OpenAI
+                          - text: has appointed Sandhya Devanathan to lead Southeast Asia and Australia, alongside efforts to expand the company’s AI work with... Grace Chua,
+                          - mark [ref=e509]: OpenAI
+                          - text: ’s head of communications for Southeast Asia, said Thailand is among the 20 countries with the largest weekly active...
+                        - generic [ref=e510]: 새 창 열림
+                    - link "<mark>OpenAI</mark> Names Sandhya Devanathan to Lead Southeast Asia and Australia의 이미지 새 창 열림" [ref=e511] [cursor=pointer]:
+                      - /url: https://econotimes.com/OpenAI-Names-Sandhya-Devanathan-to-Lead-Southeast-Asia-and-Australia-1776452
+                      - img "<mark>OpenAI</mark> Names Sandhya Devanathan to Lead Southeast Asia and Australia의 이미지" [ref=e513]
+                      - generic [ref=e515]: 새 창 열림
+            - link "뉴스 기사와 댓글로 인한 문제 발생시 24시간 센터로 접수해주세요." [ref=e517] [cursor=pointer]:
+              - /url: https://help.naver.com/alias/news/news_21.naver
+        - generic [ref=e530]:
+          - link "샤넬·구찌·프라다 중고 특가 N플리마켓 프리미엄 리세일 위크 새 창 링크" [ref=e531] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2611-fleamarket-001&material=chanel1&target=https%3A%2F%2Ffleamarket.naver.com%2F%3Fhero%3D01M6N6A362RJSE7BMD4X9ZQHAT%26dtm_detail%3Dchanel1%26dtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2611-fleamarket-001%26tc%3Dpromotion_store_202611_fashion_naver_pcsearchmktbanner_traffic_chanel1_all
+            - generic [ref=e533]:
+              - strong [ref=e534]: 샤넬·구찌·프라다 중고 특가
+              - paragraph [ref=e535]: N플리마켓 프리미엄 리세일 위크
+            - generic [ref=e536]: 새 창 링크
+          - link "참여 누르고 쇼핑하면 최대 3만3천P 추가 적립! 새 창 링크" [ref=e537] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2610-shopping-008&target=https%3A%2F%2Fmkt.naver.com%2Fplusmission%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2610-shopping-008
+            - generic [ref=e539]:
+              - strong [ref=e540]: 참여 누르고 쇼핑하면
+              - paragraph [ref=e541]: 최대 3만3천P 추가 적립!
+            - generic [ref=e542]: 새 창 링크
+          - link "적립적인 멤버십 전용카드 네이버 현대카드 Ed.3 새 창 링크" [ref=e543] [cursor=pointer]:
+            - /url: https://mkt.naver.com/naverhyundaicard3?eventCode=NAVHJ&dtm_source=naver_pcsearchmktbanner&dtm_medium=display&dtm_campaign=hyundaicard3mkt
+            - generic [ref=e545]:
+              - strong [ref=e546]: 적립적인 멤버십 전용카드
+              - paragraph [ref=e547]: 네이버 현대카드 Ed.3
+            - generic [ref=e548]: 새 창 링크
+          - link "끝까지 끝내주는 AI, 네이버 AI탭 검색이 대화가 되다 새 창 링크" [ref=e549] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2607-naverAI-001&target=https%3A%2F%2Fmkt.naver.com%2Faitab%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2607-naverAI-001
+            - generic [ref=e551]:
+              - strong [ref=e552]: 끝까지 끝내주는 AI, 네이버 AI탭
+              - paragraph [ref=e553]: 검색이 대화가 되다
+            - generic [ref=e554]: 새 창 링크
+    - generic [ref=e555]:
+      - link "맨위로" [ref=e557] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e560]:
+        - link "전체서비스 새 창 열림" [ref=e562] [cursor=pointer]:
+          - /url: https://www.naver.com/more.html
+          - text: 전체서비스
+          - generic [ref=e563]: 새 창 열림
+        - link "이용약관 새 창 열림" [ref=e565] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/service.html
+          - text: 이용약관
+          - generic [ref=e566]: 새 창 열림
+        - link "개인정보처리방침 새 창 열림" [ref=e568] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/privacy.html
+          - strong [ref=e569]: 개인정보처리방침
+          - generic [ref=e570]: 새 창 열림
+        - link "검색 고객센터 새 창 열림" [ref=e572] [cursor=pointer]:
+          - /url: https://help.naver.com/alias/search/integration/main.naver
+          - text: 검색 고객센터
+          - generic [ref=e573]: 새 창 열림
+        - link "© NAVER Corp. 새 창 열림" [ref=e575] [cursor=pointer]:
+          - /url: https://www.navercorp.com/
+          - text: © NAVER Corp.
+          - generic [ref=e576]: 새 창 열림

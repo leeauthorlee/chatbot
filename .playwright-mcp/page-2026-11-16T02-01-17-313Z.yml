@@ -1,0 +1,197 @@
+- generic [ref=f5e2]:
+  - generic [ref=f5e3]:
+    - paragraph [ref=f5e5]:
+      - link "한국어" [ref=f5e6] [cursor=pointer]:
+        - /url: https://www.asiatoday.co.kr/
+      - text: "|"
+      - link "English" [ref=f5e7] [cursor=pointer]:
+        - /url: https://en.asiatoday.co.kr/
+      - text: "|"
+      - link "中文" [ref=f5e8] [cursor=pointer]:
+        - /url: https://cn.asiatoday.co.kr/
+    - generic [ref=f5e10]:
+      - definition [ref=f5e11]:
+        - paragraph [ref=f5e12]: "Hôm nay : 2026.11.16"
+      - definition [ref=f5e13]:
+        - heading [level=1] [ref=f5e14]:
+          - link [ref=f5e15] [cursor=pointer]:
+            - /url: /
+            - img "ASIATODAY VIETNAMESE" [ref=f5e16]
+      - definition [ref=f5e17]:
+        - group [ref=f5e18]:
+          - generic [ref=f5e19]:
+            - textbox "검색어" [ref=f5e20]:
+              - /placeholder: Tìm kiếm
+            - button "검색" [ref=f5e21] [cursor=pointer]
+    - generic [ref=f5e23]:
+      - list:
+        - listitem [ref=f5e24]:
+          - link:
+            - /url: https://vn.asiatoday.co.kr/
+        - listitem [ref=f5e25]:
+          - link "Quốc tế" [ref=f5e26] [cursor=pointer]:
+            - /url: vn_section.php?series=vie006
+        - listitem [ref=f5e27]:
+          - link "Kinh tế" [ref=f5e28] [cursor=pointer]:
+            - /url: vn_section.php?series=vie002
+        - listitem [ref=f5e29]:
+          - link "Chính trị" [ref=f5e30] [cursor=pointer]:
+            - /url: vn_section.php?series=vie004
+        - listitem [ref=f5e31]:
+          - link "Xã hội" [ref=f5e32] [cursor=pointer]:
+            - /url: vn_section.php?series=vie001+vie003
+        - listitem [ref=f5e33]:
+          - link "Nghệ sĩ · giải trí" [ref=f5e34] [cursor=pointer]:
+            - /url: vn_section.php?series=vie005
+  - generic [ref=f5e35]:
+    - generic [ref=f5e36]:
+      - generic [ref=f5e37]:
+        - heading "Samsung mở rộng tham vọng từ bán dẫn sang trung tâm dữ liệu AI, đối mặt bài toán tích hợp và lợi nhuận" [level=2] [ref=f5e38]
+        - generic [ref=f5e39]:
+          - term [ref=f5e40]:
+            - generic [ref=f5e41]:
+              - text: 16/11/2026 09:14
+              - generic [ref=f5e42]: Dịch sang：trangamy319@gmail.com
+          - definition [ref=f5e43]:
+            - link [ref=f5e44] [cursor=pointer]:
+              - /url: javascript:sendFaceBook('Samsung mở rộng tham vọng từ bán dẫn sang trung tâm dữ liệu AI, đối mặt bài toán tích hợp và lợi nhuận','https://vn.asiatoday.co.kr/view.php?key=20261116000910514')
+            - link [ref=f5e46] [cursor=pointer]:
+              - /url: javascript:sendTwitter('Samsung mở rộng tham vọng từ bán dẫn sang trung tâm dữ liệu AI, đối mặt bài toán tích hợp và lợi nhuận','https://vn.asiatoday.co.kr/view.php?key=20261116000910514')
+            - link [ref=f5e49] [cursor=pointer]:
+              - /url: javascript:fontPlus();
+            - link [ref=f5e51] [cursor=pointer]:
+              - /url: javascript:fontMinus();
+            - link [ref=f5e53] [cursor=pointer]:
+              - /url: javascript:GoPrint('20261116000910514');
+      - generic [ref=f5e56]:
+        - table [ref=f5e57]:
+          - rowgroup [ref=f5e58]:
+            - row [ref=f5e59]:
+              - cell [ref=f5e60]
+            - row [ref=f5e61]:
+              - cell "Tổng thống Lee Jae-myung đang bắt tay Chủ tịch Samsung Electronics Lee Jae-yong sau khi ký tên lên sản phẩm chủ lực TSP (Test & System Package) được sản xuất tại nhà máy này, sau lễ khởi công Dự án siêu quy mô khu vực Chungcheong, tổ chức tại công trường xây dựng cơ sở Onyang của Samsung Electronics ở thành phố Asan, tỉnh Chungcheong Nam, ngày 12. /Yonhap" [ref=f5e62]
+        - generic [ref=f5e63]: Tập đoàn Samsung đang xúc tiến mô hình kinh doanh cung cấp giải pháp tổng thể cho các trung tâm dữ liệu trí tuệ nhân tạo (AI), kết hợp các công ty thành viên trong lĩnh vực xây dựng, dịch vụ công nghệ thông tin (IT), pin và đóng tàu, thay vì chỉ tập trung vào chất bán dẫn bộ nhớ. Hãng tin Financial Times (FT) của Anh đưa tin ngày 15 (giờ địa phương).
+        - generic [ref=f5e65]: Samsung đang mở rộng hoạt động kinh doanh thông qua việc đầu tư vào các nhà vận hành trung tâm dữ liệu và hợp tác với OpenAI. Tuy nhiên, các chuyên gia cho rằng tập đoàn vẫn phải giải quyết nhiều thách thức, bao gồm khả năng phối hợp giữa các công ty thành viên, thu hút khách hàng bên ngoài và bảo đảm hiệu quả kinh tế khi trực tiếp vận hành trung tâm dữ liệu.
+        - generic [ref=f5e67]: ◇ Samsung đầu tư 1 tỷ USD vào Helix, mua lại doanh nghiệp làm hệ thống làm mát… hướng tới mô hình tích hợp từ xây dựng đến vận hành trung tâm dữ liệu
+        - generic [ref=f5e69]: Trong vòng một năm qua, Samsung đã thực hiện nhiều bước đi nhằm chuyển mình thành nhà cung cấp đồng bộ cơ sở hạ tầng AI. Tháng 9 vừa qua, tập đoàn đầu tư 1 tỷ USD (khoảng 1,34 nghìn tỷ won) vào Helix Digital Infrastructure, đơn vị vận hành trung tâm dữ liệu được quỹ đầu tư tư nhân KKR của Mỹ và Nvidia hậu thuẫn. Samsung cũng mua lại FlaktGroup, nhà sản xuất hệ thống làm mát của châu Âu, đồng thời thiết lập quan hệ hợp tác với OpenAI để phát triển cơ sở hạ tầng AI.
+        - generic [ref=f5e71]: "Sau khoản đầu tư vào Helix, Samsung cho biết: \"Chúng tôi sẵn sàng mở rộng vai trò, từ một nhà cung cấp linh kiện phần cứng truyền thống trở thành đơn vị chủ động thiết kế hệ sinh thái cơ sở hạ tầng AI toàn cầu\"."
+        - generic [ref=f5e73]: Trong mô hình cung cấp tích hợp mà Samsung hướng tới, Samsung C&T có thể đảm nhận việc xây dựng trung tâm dữ liệu và cơ sở phát điện; Samsung SDS phụ trách thiết kế, vận hành trung tâm dữ liệu và cung cấp dịch vụ điện toán đám mây; Samsung SDI cung cấp hệ thống lưu trữ năng lượng (ESS) và thiết bị cấp điện dự phòng.
+        - generic [ref=f5e75]: Samsung Electronics sẽ cung cấp chất bán dẫn bộ nhớ, dịch vụ gia công bán dẫn (foundry), công nghệ đóng gói tiên tiến và hệ thống làm mát thông qua FlaktGroup. Trong khi đó, Samsung Heavy Industries có thể đảm nhận phát triển cơ sở hạ tầng trung tâm dữ liệu nổi. Lĩnh vực kinh doanh của Samsung SDS còn bao gồm dịch vụ bộ xử lý đồ họa (GPU) và hỗ trợ doanh nghiệp ứng dụng AI.
+        - generic [ref=f5e77]: Theo FT, Samsung đang tìm kiếm cơ hội tăng trưởng từ làn sóng bùng nổ AI bên ngoài lĩnh vực bán dẫn, vốn có khả năng sinh lời cao nhưng chịu ảnh hưởng lớn từ biến động kinh tế.
+        - table [ref=f5e80]:
+          - rowgroup [ref=f5e81]:
+            - row [ref=f5e82]:
+              - cell [ref=f5e83]
+            - row [ref=f5e84]:
+              - cell [ref=f5e85]:
+                - paragraph [ref=f5e86]: Tổng thống Lee Jae-myung cùng Chủ tịch Samsung Electronics Lee Jae-yong và các quan chức thực hiện nghi thức xúc đất tại lễ khởi công Dự án siêu quy mô khu vực Chungcheong, tổ chức tại công trường xây dựng cơ sở Onyang của Samsung Electronics ở thành phố Asan, tỉnh Chungcheong Nam, ngày 12. (Từ trái sang) Tỉnh trưởng Chungcheong Nam Park Soo-hyun, Bộ trưởng Công nghiệp, Thương mại và Năng lượng Kim Jung-kwan, Tổng thống Lee Jae-myung và Chủ tịch Lee Jae-yong. /Yonhap
+        - generic [ref=f5e87]: ◇ Samsung SDS đàm phán sơ bộ với OpenAI và Anthropic để thu hút khách thuê… doanh thu dự kiến đạt 6.600 tỷ won vào năm 2031
+        - generic [ref=f5e89]: Samsung SDS, vốn khởi đầu là đơn vị cung cấp dịch vụ IT nội bộ của tập đoàn, hiện vẫn chủ yếu vận hành các trung tâm dữ liệu phục vụ những công ty thành viên Samsung. Theo FT, Samsung SDS đang tiến hành các cuộc đàm phán ban đầu nhằm thu hút OpenAI và Anthropic trở thành khách hàng thuê trung tâm dữ liệu.
+        - generic [ref=f5e91]: Các nhà phân tích dự báo doanh thu hằng năm từ mảng trung tâm dữ liệu của Samsung SDS sẽ đạt 6.600 tỷ won vào năm 2031, gấp khoảng 6 lần mức hiện tại.
+        - generic [ref=f5e93]: Trước đó, Samsung đã ký thỏa thuận cung cấp chất bán dẫn bộ nhớ tiên tiến cho dự án trung tâm dữ liệu Stargate của OpenAI. Samsung SDS sẽ hợp tác với OpenAI trong thiết kế, phát triển và vận hành trung tâm dữ liệu; trong khi Samsung C&T và Samsung Heavy Industries cùng thúc đẩy phát triển trung tâm dữ liệu nổi.
+        - generic [ref=f5e95]: Trong báo cáo gần đây, ngân hàng đầu tư Morgan Stanley của Mỹ đánh giá Samsung SDS đang ở vị thế thuận lợi để hưởng lợi từ xu hướng mở rộng xây dựng trung tâm dữ liệu, trong bối cảnh chính phủ nhiều quốc gia ban hành luật yêu cầu dữ liệu phải được lưu trữ trong nước.
+        - table [ref=f5e98]:
+          - rowgroup [ref=f5e99]:
+            - row [ref=f5e100]:
+              - cell [ref=f5e101]
+            - row [ref=f5e102]:
+              - cell "Chủ tịch Samsung Electronics Lee Jae-yong phát biểu chào mừng tại lễ khởi công Dự án siêu quy mô khu vực Chungcheong, tổ chức tại công trường xây dựng cơ sở Onyang của Samsung Electronics ở thành phố Asan, tỉnh Chungcheong Nam, ngày 12, với sự tham dự của Tổng thống Lee Jae-myung. /Yonhap" [ref=f5e103]
+        - generic [ref=f5e105]: "◇ McKinsey: Nhu cầu trung tâm dữ liệu năm 2030 tăng gần gấp 3… song vẫn tồn tại lo ngại về vốn đầu tư khổng lồ và quy định quản lý"
+        - generic [ref=f5e106]: Triển vọng tăng trưởng của thị trường trung tâm dữ liệu cũng được đánh giá tích cực. McKinsey ước tính nhu cầu về công suất trung tâm dữ liệu trên toàn thế giới sẽ tăng gần gấp 3 lần vào năm 2030, trong đó các tác vụ liên quan đến AI chiếm khoảng 70% tổng nhu cầu.
+        - generic [ref=f5e108]: Theo phân tích của tổ chức này, riêng việc đáp ứng nhu cầu tính toán AI có thể đòi hỏi khoản chi đầu tư vốn lên tới 5.200 tỷ USD (khoảng 6.968 nghìn tỷ won).
+        - generic [ref=f5e110]: "Giáo sư Kim Jung-ho thuộc Khoa Kỹ thuật Điện, Viện Khoa học và Công nghệ Tiên tiến Hàn Quốc (KAIST), nhận định: \"Samsung có cơ hội cung cấp các giải pháp tổng thể. Các tập đoàn công nghệ lớn của Mỹ có thế mạnh về AI và phần mềm, nhưng lại phụ thuộc rất nhiều vào các nhà cung cấp bên ngoài trong lĩnh vực phần cứng\"."
+        - generic [ref=f5e112]: Tuy nhiên, sau khi các công ty công nghệ công bố kết quả kinh doanh gần đây, giới đầu tư bắt đầu lo ngại liệu nhu cầu thị trường có đủ lớn để tương xứng với khoản đầu tư khổng lồ vào cơ sở hạ tầng AI hay không.
+        - generic [ref=f5e114]: Bên cạnh đó, lo ngại về việc siết chặt quy định cũng gia tăng sau khi các ứng viên đảng Dân chủ tại Mỹ, những người cam kết ngăn chặn hoạt động xây dựng trung tâm dữ liệu tại bang nơi họ ứng cử, giành chiến thắng trong các cuộc bầu cử.
+        - generic [ref=f5e116]: Ông Sanjeev Rana, Trưởng bộ phận nghiên cứu thị trường Hàn Quốc của CLSA, dự báo thị trường có thể trải qua những giai đoạn thăng trầm, nhưng đầu tư liên quan đến trung tâm dữ liệu AI mang tính "cơ cấu" (structural), đồng nghĩa dòng vốn quy mô lớn sẽ tiếp tục được rót vào lĩnh vực này trong nhiều năm, thậm chí nhiều thập kỷ tới.
+        - generic [ref=f5e118]: "◇ Nikkei: Samsung Electronics đứng thứ 3 về doanh thu bán dẫn năm 2025… dẫn đầu nhóm doanh nghiệp bán dẫn tích hợp"
+        - generic [ref=f5e120]: Samsung Electronics đã xây dựng được lợi thế cạnh tranh trong lĩnh vực sản xuất bộ nhớ bán dẫn, nơi doanh nghiệp đồng thời đảm nhiệm cả khâu thiết kế và chế tạo.
+        - generic [ref=f5e122]: Theo bảng xếp hạng doanh thu các công ty bán dẫn năm 2025 do Nihon Keizai Shimbun (Nikkei) công bố, dựa trên khảo sát của Gartner tại Mỹ và kết quả kinh doanh được TSMC công bố, Nvidia đứng đầu với doanh thu 125,7 tỷ USD (khoảng 168,438 nghìn tỷ won). Xếp thứ hai là TSMC của Đài Loan với 122,4 tỷ USD (164,016 nghìn tỷ won).
+        - generic [ref=f5e124]: Samsung Electronics đứng thứ ba với 72,5 tỷ USD (97,15 nghìn tỷ won), tiếp theo là SK Hynix ở vị trí thứ tư với 60,6 tỷ USD (81,204 nghìn tỷ won). Intel và Micron lần lượt xếp sau với doanh thu 47,8 tỷ USD (64,052 nghìn tỷ won) và 41,4 tỷ USD (55,476 nghìn tỷ won).
+        - generic [ref=f5e126]: Trong top 10 doanh nghiệp, Samsung Electronics, SK Hynix, Intel và Micron là các nhà sản xuất bán dẫn tích hợp (Integrated Device Manufacturer - IDM), tự thực hiện cả thiết kế lẫn sản xuất. Trong nhóm 4 doanh nghiệp này, Samsung Electronics dẫn đầu về doanh thu.
+        - generic [ref=f5e128]: Nikkei cho biết trong top 10 có 5 doanh nghiệp chuyên thiết kế chip không sở hữu nhà máy sản xuất (fabless), còn TSMC chuyên về gia công bán dẫn (foundry).
+        - generic [ref=f5e130]: Ông Toshiya Suzuki, Giám đốc tư vấn tại công ty nghiên cứu thị trường Mỹ Omdia, chỉ ra rằng đối với bộ nhớ - lĩnh vực có tỷ trọng sản phẩm tiêu chuẩn hóa cao - yếu tố quyết định cạnh tranh là khả năng giảm chi phí sản xuất trên mỗi đơn vị dung lượng dữ liệu.
+        - generic [ref=f5e132]: Các doanh nghiệp như Samsung Electronics và SK Hynix đang cạnh tranh bằng công nghệ sản xuất hàng loạt, nâng cao tỷ lệ sản phẩm đạt chuẩn (yield) thông qua việc tự vận hành nhà máy. Trong bối cảnh chi phí xây dựng một nhà máy bán dẫn tiên tiến lên tới hàng nghìn tỷ yen, xu hướng chuyên môn hóa sản xuất ngày càng lan rộng.
+        - generic [ref=f5e134]: Theo Nikkei, TSMC đã nâng cao tỷ lệ sử dụng công suất nhà máy và tỷ lệ sản phẩm đạt chuẩn nhờ tiếp nhận đơn đặt hàng từ nhiều khách hàng khác nhau. Tuy nhiên, mô hình tích hợp theo chiều dọc vẫn giữ vai trò chủ đạo trong lĩnh vực bộ nhớ. Giám đốc Suzuki cũng đưa ra khả năng trong tương lai, mô hình doanh nghiệp IDM có thể chỉ còn tồn tại trong lĩnh vực sản xuất bộ nhớ.
+        - table [ref=f5e137]:
+          - rowgroup [ref=f5e138]:
+            - row [ref=f5e139]:
+              - cell [ref=f5e140]
+            - row [ref=f5e141]:
+              - cell "Các lãnh đạo Samsung và Tập đoàn Hyundai Motor tham quan các gian trưng bày tại sự kiện \"HMG (Hyundai Motor Group) Appreciation Day\", tổ chức tại Trung tâm đào tạo Seocheon của Samsung Electronics, thành phố Yongin, tỉnh Gyeonggi, ngày 9. /Samsung Electronics cung cấp" [ref=f5e142]
+        - generic [ref=f5e144]: ◇ Samsung vận hành các cơ chế phối hợp theo từng lĩnh vực sau khi giải thể Ban Chiến lược Tương lai… năng lực triển khai đồng bộ và kinh nghiệm phục vụ khách hàng bên ngoài là vấn đề then chốt
+        - generic [ref=f5e146]: Kế hoạch phát triển cơ sở hạ tầng AI của Samsung đang đặt ra yêu cầu kết hợp năng lực của nhiều công ty thành viên trong tập đoàn.
+        - generic [ref=f5e148]: Trước năm 2017, Samsung từng vận hành Ban Chiến lược Tương lai, cơ quan phụ trách các quyết định điều hành trên phạm vi toàn tập đoàn. Tuy nhiên, sau vụ bê bối tham nhũng chính trị liên quan đến ban lãnh đạo, cơ quan này đã bị giải thể. Kể từ đó, Samsung chủ yếu dựa vào các cơ chế phối hợp riêng theo từng lĩnh vực kinh doanh, với nguồn nhân lực và nguồn lực tương đối hạn chế.
+        - generic [ref=f5e150]: Các nhà phân tích chỉ ra rằng việc thiếu một cơ quan ra quyết định tập trung có thể gây khó khăn cho những dự án cơ sở hạ tầng AI quy mô lớn, vốn đòi hỏi sự phối hợp chặt chẽ giữa nhiều công ty thành viên.
+        - generic [ref=f5e152]: "Ông Peter Lee, chuyên gia phân tích của Citi, đánh giá: \"Samsung sở hữu năng lực rất đa dạng, nhưng tương đối yếu trong việc kết hợp những năng lực đó thành các dịch vụ tích hợp\"."
+        - generic [ref=f5e154]: Phạm vi kinh doanh của Samsung còn bao gồm cả bảo hiểm và dịch vụ an ninh. Tuy nhiên, nhiều công ty thành viên vốn khởi đầu là các đơn vị cung cấp dịch vụ nội bộ và đến nay vẫn phụ thuộc đáng kể vào các đơn hàng từ chính tập đoàn. Điều này làm dấy lên nghi vấn về kinh nghiệm phục vụ các khách hàng bên ngoài với quy mô lớn của họ.
+        - generic [ref=f5e156]: Ông Rana cho rằng cơ hội trực tiếp hơn đối với Samsung nằm ở việc thiết kế các hệ thống nội bộ của trung tâm dữ liệu, thay vì sở hữu và vận hành chính các trung tâm này.
+        - generic [ref=f5e158]: Ông nhận định Samsung nên tập trung mở rộng thế mạnh trong các lĩnh vực như bộ nhớ băng thông cao (HBM), đế đóng gói bán dẫn tiên tiến và pin dự phòng dành cho máy chủ. "Đây đều là những lĩnh vực có khả năng sinh lời cao", ông đánh giá.
+        - generic [ref=f5e160]: "Ông nhấn mạnh thêm: \"Tôi không chắc việc sở hữu hoặc vận hành trung tâm dữ liệu có thể phát huy được những thế mạnh của Samsung hay không\"."
+        - generic [ref=f5e162]: Theo Han Man-joo
+        - generic [ref=f5e163]: Phóng viên thường trú tại Washington
+      - generic [ref=f5e164]: ⓒASIATODAY, nghiêm cấm sao chép và phân phối lại trái phép
+    - generic [ref=f5e165]:
+      - generic [ref=f5e166]:
+        - heading "Tin xem nhiều nhất" [level=4] [ref=f5e167]
+        - list [ref=f5e169]:
+          - listitem [ref=f5e170]:
+            - generic [ref=f5e171]: "1"
+            - link "Houthi siết vòng vây Aden, quân đội Yemen phải rút lực lượng khỏi eo biển Bab al-Mandab" [ref=f5e172] [cursor=pointer]:
+              - /url: /view.php?key=20261116000931256
+          - listitem [ref=f5e173]:
+            - generic [ref=f5e174]: "2"
+            - 'link "3 ngày trước Kỳ thi CSAT: Đề thi và phiếu trả lời được phân phát đến 85 khu vực trên toàn Hàn Quốc" [ref=f5e175] [cursor=pointer]':
+              - /url: /view.php?key=20261116000931231
+          - listitem [ref=f5e176]:
+            - generic [ref=f5e177]: "3"
+            - link "Bundang, Ilsan tăng tốc tái thiết, Hwajeong, Suji và Yeongtong vẫn mắc kẹt ở khâu quy hoạch" [ref=f5e178] [cursor=pointer]:
+              - /url: /view.php?key=20261116000929204
+          - listitem [ref=f5e179]:
+            - generic [ref=f5e180]: "4"
+            - link "Hanwha Power ký hợp đồng cải tạo tàu chở LNG với Energos, mở rộng đơn hàng FSRU" [ref=f5e181] [cursor=pointer]:
+              - /url: /view.php?key=20261116000941237
+          - listitem [ref=f5e182]:
+            - generic [ref=f5e183]: "5"
+            - 'link "Lotte E&C: Vốn của các công ty con tại Việt Nam và Indonesia giảm 56,7 tỷ won trong 2 năm, đơn hàng mới vẫn ảm đạm" [ref=f5e184] [cursor=pointer]':
+              - /url: /view.php?key=20261116000924133
+      - generic [ref=f5e185]:
+        - heading [level=4] [ref=f5e186]:
+          - link "Nghệ sĩ · giải trí" [ref=f5e188] [cursor=pointer]:
+            - /url: vn_section.php?series=vie005
+        - generic [ref=f5e189]:
+          - definition [ref=f5e190]:
+            - link [ref=f5e191] [cursor=pointer]:
+              - /url: /view.php?key=20261104001738532
+              - paragraph [ref=f5e192]
+              - 'heading "Park Jin-young lên tiếng giữa tranh cãi nhóm tôn giáo bị nghi là tà giáo: “Chúa sẽ giải quyết mọi chuyện”" [level=5] [ref=f5e194]'
+          - definition [ref=f5e195]:
+            - link [ref=f5e196] [cursor=pointer]:
+              - /url: /view.php?key=20261103001619104
+              - paragraph [ref=f5e197]
+              - heading "Shin Min-a hóa thân thành Hoàng hậu Navier trong phim giả tưởng lãng mạn “Hoàng hậu tái hôn”" [level=5] [ref=f5e199]
+          - definition [ref=f5e200]:
+            - link [ref=f5e201] [cursor=pointer]:
+              - /url: /view.php?key=20261103000922542
+              - paragraph [ref=f5e202]
+              - heading "Kim Na-ra công bố ảnh cưới giữa đồng lúa, viết nên chuyện tình đẹp bên bạn đời đồng giới" [level=5] [ref=f5e204]
+          - definition [ref=f5e205]:
+            - link [ref=f5e206] [cursor=pointer]:
+              - /url: /view.php?key=20261030001617543
+              - paragraph [ref=f5e207]
+              - heading "Showbiz Hàn Quốc nghẹn ngào tiễn biệt “người cha quốc dân” Choi Bool-am" [level=5] [ref=f5e209]
+          - definition [ref=f5e210]:
+            - link [ref=f5e211] [cursor=pointer]:
+              - /url: /view.php?key=20261030000914529
+              - paragraph [ref=f5e212]
+              - 'heading "Từ “Đội điều tra” đến “người cha quốc dân”: Di sản 67 năm diễn xuất của Choi Bool-am" [level=5] [ref=f5e214]'
+  - list [ref=f5e217]:
+    - listitem [ref=f5e218]:
+      - heading [level=2] [ref=f5e219]:
+        - link [ref=f5e220] [cursor=pointer]:
+          - /url: /
+          - img "ASIATODAY VIETNAMESE" [ref=f5e221]
+    - listitem [ref=f5e222]:
+      - paragraph [ref=f5e223]: "Địa chỉ : In-Young Bldg., 34, Uisadang-daero 1-gil, Yeongdeungpo-gu, Seoul"
+      - paragraph [ref=f5e224]: Tất cả các tài liệu tin tức có trong trang web này được bảo vệ bởi luật bản quyền của Hàn Quốc. Không được sao chép, phân phối, truyền tải, hiển thị hoặc xuất bản mà chưa có sự cho phép của ASIATODAY
+      - paragraph [ref=f5e225]: © Toàn bộ bản quyền thuộc ASIATODAY
+  - iframe
