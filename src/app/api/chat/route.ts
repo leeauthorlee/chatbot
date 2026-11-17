@@ -1,6 +1,13 @@
 import { NextResponse } from "next/server";
 
 type ChatMessage = { role: "user" | "assistant"; content: string };
+type OpenAIErrorBody = {
+  error?: {
+    code?: unknown;
+    type?: unknown;
+    message?: unknown;
+  };
+};
 
 export async function POST(request: Request) {
   const apiKey = process.env.OPENAI_API_KEY;
@@ -58,8 +65,25 @@ export async function POST(request: Request) {
     });
 
     if (!response.ok) {
+      const errorBody = (await response.json().catch(() => null)) as OpenAIErrorBody | null;
+      const errorCode = typeof errorBody?.error?.code === "string" ? errorBody.error.code : undefined;
+      const errorType = typeof errorBody?.error?.type === "string" ? errorBody.error.type : undefined;
+      const errorMessage =
+        typeof errorBody?.error?.message === "string" ? errorBody.error.message.slice(0, 300) : undefined;
+      const requestId = response.headers.get("x-request-id") || undefined;
+
+      console.error("[api/chat] OpenAI request failed", {
+        status: response.status,
+        code: errorCode,
+        type: errorType,
+        message: errorMessage,
+        requestId,
+      });
+
       return NextResponse.json(
-        { error: "답변을 가져오지 못했어요. 잠시 후 다시 시도해 주세요." },
+        {
+          error: `OpenAI API 오류 (${response.status}${errorCode ? `, ${errorCode}` : ""}). Vercel Functions 로그를 확인해 주세요.`,
+        },
         { status: 502 },
       );
     }
@@ -71,7 +95,8 @@ export async function POST(request: Request) {
     }
 
     return NextResponse.json({ reply: content.trim() });
-  } catch {
+  } catch (error) {
+    console.error("[api/chat] OpenAI request threw an error", error);
     return NextResponse.json(
       { error: "서버와 연결할 수 없어요. 잠시 후 다시 시도해 주세요." },
       { status: 502 },
